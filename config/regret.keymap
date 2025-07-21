@@ -170,7 +170,7 @@ combo_##NAME { \
             label= "BT";
             bindings = <
                 &sys_reset   &bt BT_CLR  &out OUT_TOG  &bt BT_SEL 0  &bt BT_SEL 1       &trans  &trans  &trans  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD
-                &bootloader  &bt BT_NXT  &none         &bt BT_SEL 2  &bt BT_SEL 3       &none   &none   &none   &rgb_ug RGB_SUI  &rgb_ug RGB_SUD
+                &bootloader  &bt BT_NXT  &none         &bt BT_SEL 2  &bt BT_SEL 3       &none   &none   &none   &rgb_ug RGB_SAI  &rgb_ug RGB_SAD
                 &trans       &bt BT_PRV  &none         &none         &none              &none   &none   &none   &rgb_ug RGB_BRI  &rgb_ug RGB_BRD
                                                        &trans       &trans              &trans   &trans 
             >;
